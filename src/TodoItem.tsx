@@ -12,7 +12,6 @@ interface TodoListProps {
 
 
 function TodoItem({todos, onChange, onDelete}: TodoListProps)  {
-
   return (
     <>
       <ul>
